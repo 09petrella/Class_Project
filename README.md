@@ -2,6 +2,9 @@
 
 ## Module Overview
 A movie data base that contains that will be pulled into tables that will help build predictions for future movies. The tables for predictions will contain title, movie genre, actor, director, budget, year premired, and gross revenue. 
+Main Questions to be asked: 
+- Will a specific actor casted based on movie ratings, quantity of movies, and gross revenue play a large role in these outcomes?
+- Does a specific actor with high average ratings confirm a high rating for the future?
 
 Machine Learning to analyze Hulu Data
 
