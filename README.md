@@ -15,4 +15,6 @@ Plan for the model - Put in name of actor and see what name would be… how much
 
 Communication Protocol:
 -The group will communicate in our group thread in Slack. When changes are committed we will notify the other group members and take turns reviewing pull requests.
+
 -Outside of class we will meet on Zoom on Tuesday nights from 7-9 (later if need be) and Thursday nights from 7-9 using the following link:
+https://mville-edu.zoom.us/j/6911637541
