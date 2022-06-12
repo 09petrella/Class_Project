@@ -5,6 +5,7 @@ A movie data base that will be pulled into tables that will help build predictio
 Main Questions to be asked: 
 - Will a specific actor casted based on movie ratings, quantity of movies, and gross revenue play a large role in these outcomes?
 - Does a specific actor with high average ratings confirm a high rating for the future?
+
 Based on the answers from these questions we will be able to assume rating predicitions based off reasoning from the actor chosen
 
 Machine Learning to analyze Hulu Data
