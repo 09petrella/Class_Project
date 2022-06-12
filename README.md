@@ -3,8 +3,10 @@
 ## Module Overview - Presentation
 Topic: 
 - A movie data base that will be pulled into tables that will help build predictions for future movies. The tables from the data set will contain title, movie genre, actor, director, budget, year premired, and gross revenue. By merging several movie csv files we can build tables that contain new data to use the results in our predictions. Movie data can play a huge role in knowing whether or not companies will invest in the movie making.
+
 Reason:
-- To provide beneficial data to future producers when casting an actor. Can predict how future ratings will effect ticket sales, movie revenue, and 
+- To provide beneficial data to future producers when casting an actor. Can predict how future ratings will effect ticket sales, movie revenue, and possible sequel movies for the movie.
+
 Main Questions to be asked: 
 - Will a specific actor casted based on movie ratings, quantity of movies, and gross revenue play a large role in these outcomes?
 - Does a specific actor with high average ratings confirm a high rating for the future?
