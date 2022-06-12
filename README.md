@@ -1,19 +1,26 @@
 # Class_Project
 
-## Module Overview
-A movie data base that will be pulled into tables that will help build predictions for future movies. The tables from the data set will contain title, movie genre, actor, director, budget, year premired, and gross revenue. 
+## Module Overview - Presentation
+Topic: 
+- A movie data base that will be pulled into tables that will help build predictions for future movies. The tables from the data set will contain title, movie genre, actor, director, budget, year premired, and gross revenue. By merging several movie csv files we can build tables that contain new data to use the results in our predictions. Movie data can play a huge role in knowing whether or not companies will invest in the movie making.
+Reason:
+- To provide beneficial data to future producers when casting an actor. Can predict how future ratings will effect ticket sales, movie revenue, and 
 Main Questions to be asked: 
 - Will a specific actor casted based on movie ratings, quantity of movies, and gross revenue play a large role in these outcomes?
 - Does a specific actor with high average ratings confirm a high rating for the future?
+- What other catgeories play a role in these ratings. (Genre, year made, director, etc?)
 
-Based on the answers from these questions we will be able to assume rating predicitions based off reasoning from the actor chosen
+Description:
+- Based on the answers from these questions we will be able to assume rating predicitions based off reasoning from the actor chosen.
+The data will be displayed in tablkes, charts, merged data sets, and multiple charts to give visualiztions on outcomes. 
 
-Machine Learning to analyze Hulu Data
+## Machine Learning - technology document 
 
-Database: Data will be stored in AWS and we will create a database engine that will allow Pandas to communicate with PostgresSQL
+## Database: 
+Data will be stored in AWS and we will create a database engine that will allow Pandas to communicate with PostgresSQL
 
 
-Plan for the model - Put in name of actor and see what name would be… how much is this movie going to make based off of this actor… / director… 
+Plan for the model outputs - Put in name of actor and see what name would be… how much is this movie going to make based off of this actor… / director… 
 
 Communication Protocol:
 -The group will communicate in our group thread in Slack. When changes are committed we will notify the other group members and take turns reviewing pull requests.
