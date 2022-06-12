@@ -16,7 +16,8 @@ Description:
 - Based on the answers from these questions we will be able to assume rating predicitions based off reasoning from the actor chosen.
 The data will be displayed in tablkes, charts, merged data sets, and multiple charts to give visualiztions on outcomes. 
 
-## Machine Learning - technology document 
+## Machine Learning 
+- technology document 
 
 ## Database: 
 Data will be stored in AWS and we will create a database engine that will allow Pandas to communicate with PostgresSQL
