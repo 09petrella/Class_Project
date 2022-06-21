@@ -1,0 +1,29 @@
+CREATE TABLE movies_data AS
+	(SELECT numbers.index,
+		numbers.original_title,
+		numbers.production_budget,
+		numbers.worldwide_gross,
+	 	movies.imdb_id, 
+	 	movies.kaggle_id, 
+	 	movies.runtime, 
+	 	movies.budget, 
+	 	movies.revenue, 
+	 	movies.release_date, 
+	 	movies.popularity, 
+	 	movies.vote_average,
+	 	movies.vote_count, 
+	 	movies.genres, 
+	 	movies.country, 
+	 	movies.production_companies,
+	 	movies.production_countries, 
+	 	movies.distributor, 
+	 	movies.producers, 
+	 	movies.director,
+	 	movies.starring, 
+	 	movies.cinematography, 
+	 	movies.editors, 
+	 	movies.writers,
+	 	movies.composers
+	FROM numbers
+	FULL JOIN movies
+	ON numbers.original_title = movies.original_title);
