@@ -2,6 +2,8 @@
 
 ## Module Overview - Presentation
 
+https://docs.google.com/presentation/d/1DBgfBOLrG_iOOkbeQgfnrjTCTYPMPbHfAJ6IBxYKTk4/edit#slide=id.g11fc4df2689_0_50
+
 Data set from IMBD that contains information about the top movies and includes categories like years, production companies, and directors.
 The key factors that we are going to analyze is to merge the data sets to get one clean file that will contain the needed information from The IMDB Movies CSV and the Numbers CSV.  Our merged movie database we will analyze several key factors; actors, budget, & directors to help play a role in determining revenue. 
 In order to predict correctly we had to make tables and drop information that was not valuable to the equation. After keeping the columns we ran into some issues and had to make sure that there were no corruptions while importing our csv’s to created merged data frames. After fixing a few errors we were able to upload, merge, and export to SQL.
