@@ -29,8 +29,9 @@ Numbers - The Numbers - Movie Budgets (the-numbers.com)
 
 
 ## Database:
-- The data was cleaned through jupyter notebook
 - Data will be stored in AWS and we will create a database engine that will allow Pandas to communicate with PostgresSQL
+- Below is a excerpt from the code used to cleaned the Data from each CSV imported into Jupyter Notebook. After importing the CSV, it was cleaned by dropping columns that were not needed and creating data frames with the new columns free from any Nan’s or abstract characters. As you can see below we ran into an issue from the Numbers budget having a “A” character in front of the dollar amounts. By catching this we were able to have clean imported data.
+![data1](https://user-images.githubusercontent.com/98365309/175853946-0c323988-ce9c-4baf-95c3-a266170150cb.png)
 
 
 Plan for the model outputs - Put in name of actor and see what name would be… how much is this movie going to make based off of this actor… / director… 
@@ -38,6 +39,37 @@ Plan for the model outputs - Put in name of actor and see what name would be… 
 
 ## Machine Learning 
 - Supervised learning
+The preliminary data preprocessing was to take the three data sets used and to clean the data so it can be ready to be used in data frames, tables, dropped columns, and removed empty spaces.
+The feature engineering:
+Created Target Variable “movie_success” for classification supervised ML predictions. Movie Success is determined if the gross revenue column was greater than the movie’s budget column (1). If the gross revenue was equal to or less than the budget, a 0 was used to indicate the movie was unsuccessful. Label Encoding was completed for the categorical features to prepare for the ML process. For the ML models practiced with that benefit scaling, the StandardScaler was implemented to scale and normalize the features.
+Preliminary feature selection & decision making process:
+The feature selection was determined by discussing which aspects of a movie would have an effect on determining if a movie would produce a profitable result. Past movie’s budget and revenue are key features for the model, and additional features that play a part in the movie’s success include genre, star actors/actresses, writers, directors, and runtime.
+How data was split into training and testing sets:
+The train_test_split module is used to split our features and target variable into training and test datasets.
+
+The Model Choice - 
+Decision Tree Classifier, handles outliers the best
+
+
+![image (2)](https://user-images.githubusercontent.com/98365309/175854011-3724cf1b-45b6-4641-b868-73da7e027fe3.png)
+
+## EDA
+
+Used to import pandas, matploblib.pyplot to create graphs needed.
+
+After cleaning through the data and creating tables needed in order to gather the data needed that will play a role in our predictions.
+
+Performing EDA will will help give insight to the data, an understanding of the data types, and allow us to determine what features are important and the relationships between them. We can also test any underlying assumptions during the exploratory phase.
+It was important to find 
+Started with Data Analysis, Correlation Analysis, Categorical Analysis, Visualizations, Data Relationships
+
+After viewing the graphs in these visualizations we can start asking important questions:
+One of the Gross Revenue Graphs is showing a increase in movies revenue from 1980 to 2020.
+What is causing this? More Movie theaters? Increase in Rate? More people going to moves?
+
+![eda1](https://user-images.githubusercontent.com/98365309/175854130-5f0e01b1-0c69-4c8f-aa02-bd418cc64239.png)
+
+![eda2](https://user-images.githubusercontent.com/98365309/175854184-c87db27b-8c7a-4b20-a713-6e53156a394a.png)
 
 ## Class Project Information - 
 
