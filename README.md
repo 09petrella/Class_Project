@@ -36,6 +36,7 @@ Numbers - The Numbers - Movie Budgets (the-numbers.com)
 
 Plan for the model outputs - Put in name of actor and see what name would be… how much is this movie going to make based off of this actor… / director… 
 
+![SQLDATA](https://user-images.githubusercontent.com/98365309/175854523-3f980f1b-3057-4fff-a4d1-f549adc11e29.png)
 
 ## Machine Learning 
 - Supervised learning
