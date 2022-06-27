@@ -1,11 +1,15 @@
 # Class_Project
 
 ## Module Overview - Presentation
-Topic: 
-- A movie data base that will be pulled into tables that will help build predictions for future movies. The tables from the data set will contain title, movie genre, actor, director, budget, year premired, and gross revenue. By merging several movie csv files we can build tables that contain new data to use the results in our predictions. Movie data can play a huge role in knowing whether or not companies will invest in the movie making.
+
+Data set from IMBD that contains information about the top movies and includes categories like years, production companies, and directors.
+The key factors that we are going to analyze is to merge the data sets to get one clean file that will contain the needed information from The IMDB Movies CSV and the Numbers CSV.  Our merged movie database we will analyze several key factors; actors, budget, & directors to help play a role in determining revenue. 
+In order to predict correctly we had to make tables and drop information that was not valuable to the equation. After keeping the columns we ran into some issues and had to make sure that there were no corruptions while importing our csv’s to created merged data frames. After fixing a few errors we were able to upload, merge, and export to SQL.
+TOur main focus will be to predict the revenue for future movies based off the actors, budget, and director. 
+After realizing there were only several aspects we wanted to focus on we chose to stick with main components of actors vs budget since future investors or movie companies would want to use when receiving data information from a large movie dataset. To predict if a movie is going to profitable and make more revenue than their original budget will be a big deal breaker in future choices. 
 
 Reason:
-- To provide beneficial data to future producers when casting an actor. This model will be able to predict how future ratings due to a specific actor will effect ticket sales, movie revenue, and possible sequel movies for the movie.
+- To provide beneficial data to future producers when casting an actor. This model will be able to predict how future ratings due to a specific actor will effect ticket sales, movie revenue, and possible sequel movies for future prodcution companies or streaming platforms to invest in.
 
 Main Questions to be asked: 
 - Will a specific actor casted based on movie ratings, quantity of movies, and gross revenue play a large role in these outcomes?
@@ -16,8 +20,13 @@ Description:
 - Based on the answers from these questions we will be able to assume rating predicitions based off reasoning from the actor chosen.
 The data will be displayed in tablkes, charts, merged data sets, and multiple charts to give visualiztions on outcomes. 
 
-## Machine Learning 
-- Supervised learning
+The data is a combination of three data sources. 
+IMDB - IMDB Movies Dataset | Kaggle
+Kaggle - EDA on IMDB Movies Dataset | Kaggle 
+Numbers - The Numbers - Movie Budgets (the-numbers.com)
+
+
+
 
 ## Database:
 - The data was cleaned through jupyter notebook
@@ -25,6 +34,12 @@ The data will be displayed in tablkes, charts, merged data sets, and multiple ch
 
 
 Plan for the model outputs - Put in name of actor and see what name would be… how much is this movie going to make based off of this actor… / director… 
+
+
+## Machine Learning 
+- Supervised learning
+
+## Class Project Information - 
 
 Communication Protocol:
 -The group will communicate in our group thread in Slack. When changes are committed we will notify the other group members and take turns reviewing pull requests.
