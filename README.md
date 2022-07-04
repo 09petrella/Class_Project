@@ -10,7 +10,7 @@ https://docs.google.com/presentation/d/1DBgfBOLrG_iOOkbeQgfnrjTCTYPMPbHfAJ6IBxYK
 
 #### Tableau
 
-
+https://public.tableau.com/app/profile/stephanie.e.laforge/viz/IMDBMOVIEPROJECTDASHBOARD/Actorsproducer?publish=yes
 
 Data set from IMBD that contains information about the top movies and includes categories like years, production companies, and directors.
 The key factors that we are going to analyze is to merge the data sets to get one clean file that will contain the needed information from The IMDB Movies CSV and the Numbers CSV.  Our merged movie database we will analyze several key factors; actors, budget, & directors to help play a role in determining revenue. 
